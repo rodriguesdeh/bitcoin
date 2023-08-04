@@ -1,4 +1,7 @@
-const { default: axios } = require("axios");
+
+
+const lblBTC = document.getElementById('lblBTC');
+const btnConsultar = document.getElementById('btnConsultar');
 
 const API = axios.create({
     baseURL:'https://www.mercadobitcoin.com.br/api/BTC/ticker/'
