@@ -1,5 +1,3 @@
-
-
 const lblBTC = document.getElementById('lblBTC');
 const btnConsultar = document.getElementById('btnConsultar');
 

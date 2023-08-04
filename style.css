@@ -1,18 +1,23 @@
 body{
     background: #FFFFFF url("bitcoin_040620213858.jpg")  center top fixed;
+    text-align: center;
 }
 
 h2{
-    color: yellow;
+    color: #daa520 ;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: rgb(236, 201, 1) 0.1em 0.1em 0.2em;
 }
 
 p{
-    color: yellow;
+    color: #daa520 ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button{
     color: black;
-    background-color: yellow;
+    background-color: #daa520 ;
+    border-radius: 10px;
+    text-shadow: rgb(236, 201, 1) 0.1em 0.1em 0.2em;
 }
+
