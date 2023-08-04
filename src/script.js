@@ -5,7 +5,11 @@ const API = axios.create({
 });
 
 async function consultarBTC(){
-    const response = await API.get():
+    const response = await API.get();
     console.log(response.data.ticker.high);
     lblBTC.innerHTML = response.data.ticker.high;
+}
+
+btnConsultar.onClick = ()=>{
+    consultarBTC();
 }
